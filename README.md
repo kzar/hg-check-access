@@ -25,3 +25,15 @@ For example:
 I specifically wrote the script in order to double-check which Adblock Plus
 repositories I had access to. I've avoided hard-coding the URLs though in
 case it's useful for other teams too.
+
+### Update
+
+If you're using this at Adblock Plus... stop! Wladimir has added this functionality to the Mercurial server, attempt to SSH to `hg@ssh.adblockplus.org` and the repositories you have access to will be displayed:
+
+    ssh hg@ssh.adblockplus.org
+
+    PTY allocation request failed on channel 0
+    You can access the following repositories: adblockpluschrome cms sitescripts web.adblockplus.org web.eyeo.com
+    Connection to ssh.adblockplus.org closed.a
+
+Much quicker and easier!
